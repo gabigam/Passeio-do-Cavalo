@@ -1,26 +1,38 @@
-﻿# Passeio-do-Cavalo
-Algoritmo para Passeios do Cavalo em um Tabuleiro de Xadrez 8x8
+# Passeio do Cavalo ♞
 
 Este repositório contém uma implementação em Python do algoritmo para encontrar os passeios do cavalo em um tabuleiro de xadrez 8x8. O programa utiliza backtracking para explorar recursivamente todas as possíveis posições do cavalo.
 
-Funcionamento:
+## 📁 Estrutura do Projeto
 
-O programa começa na posição inicial do cavalo e explora recursivamente todos os 8 movimentos possíveis para verificar se levam à solução ou não. Se o caminho atual não chegar ao destino ou já tiver explorado todos os movimentos possíveis a partir da posição atual, é feito um backtracking (ou seja, um retrocesso).
+O código é composto pelo arquivo principal:
 
-Detalhes do Programa:
+- **passeio_cavalo.py**: Implementação do algoritmo de passeios do cavalo, incluindo a lógica de validação e backtracking.
 
-    linha e coluna: Representam os movimentos possíveis do cavalo no tabuleiro de xadrez.
-    checa_validade(x, y): Função para verificar se as coordenadas (x, y) são válidas no tabuleiro de xadrez.
-    passeio_cavalo(posicao_visitada, x, y, posicao): Função recursiva para realizar o passeio do cavalo usando backtracking.
+## Funcionamento
 
-Implementação:
+O programa começa na posição inicial do cavalo e explora recursivamente todos os 8 movimentos possíveis para verificar se levam à solução. Se o caminho atual não chegar ao destino ou já tiver explorado todos os movimentos possíveis a partir da posição atual, é feito um backtracking.
 
-O código é composto por uma função principal main() que define o tamanho do tabuleiro de xadrez (8x8) e inicia o passeio do cavalo a partir da posição (0, 0).
+### Detalhes do Programa
 
-Exemplo de Uso:
+- **linha e coluna**: Representam os movimentos possíveis do cavalo no tabuleiro de xadrez.
+- **checa_validade(x, y)**: Função para verificar se as coordenadas (x, y) são válidas no tabuleiro de xadrez.
+- **passeio_cavalo(posicao_visitada, x, y, posicao)**: Função recursiva para realizar o passeio do cavalo usando backtracking.
 
-O código imprime todos os passeios do cavalo no tabuleiro de xadrez 8x8.
+## 🚀 Como Usar
 
-Execução:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/gabigam/passeio-do-cavalo.git
+   ```
+2. Navegue até o diretório do projeto.
+   ```bash
+   cd passeio-do-cavalo
+   ```
+3. Execute o arquivo Python:
+   ```bash
+   python passeio_cavalo.py
+   ```
 
-Para executar o código, basta rodar o arquivo Python. Os resultados dos passeios do cavalo serão impressos no terminal.
+Os resultados dos passeios do cavalo serão impressos no terminal.
+```
+
