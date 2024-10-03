@@ -22,11 +22,11 @@ O programa começa na posição inicial do cavalo e explora recursivamente todos
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/gabigam/passeio-do-cavalo.git
+   git clone https://github.com/gabigam/Passeio-do-Cavalo.git
    ```
-2. Navegue até o diretório do projeto.
+2. Navegue até o diretório do projeto:
    ```bash
-   cd passeio-do-cavalo
+   cd Passeio-do-Cavalo
    ```
 3. Execute o arquivo Python:
    ```bash
